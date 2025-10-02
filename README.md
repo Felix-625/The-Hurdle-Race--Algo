@@ -1,1 +1,3 @@
 # The-Hurdle-Race--Algo
+
+This program determining how many doses of a jump-enhancing potion a character needs to jump over the highest hurdle. The character can already jump a height `k`, and the program reads a list of hurdle heights. It finds the tallest hurdle using `height.Max()` and then calculates how much higher it is than the character’s natural jump height. If the tallest hurdle is higher than `k`, the difference is returned (number of doses needed); otherwise, it returns `0`. The program takes input for the number of hurdles, the jump height, and hurdle heights, then outputs the result to a specified stream.
